@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Box Icons -->
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Tasha's Restaurant</title>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <nav>
+      <div class="nav">
+      <h1>Tasha's Restaurant</h1>
+      <div class="logo">
+        <img src="images/TRLOGO.svg" alt="logo" />
+      </div>
+
+      <ul class="nav-list">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#categories">Food Search</a></li>
+        <li><a href="#food-menu">Food Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="banner">
+      <img src="images/banner.png" alt="Food platter" />
+    </section>
+
+    <!-- About us -->
+
+    <section id="about">
+      <div class="container-info">
+        <div class="text-col">
+          <h2>About Us</h2>
+          <br />
+          <p>
+            Tasha's restaurant serves traditional Spanish tapas dishes.<br />
+            The Spanish practice of going out for tapas, also called
+            <em>el tapeo</em> had<br />
+            its humble beginnings long ago with the first<br />
+            recipes being written in the 14th century!
+            <br />
+            <br />
+            Tasha's is a family owned and run resturant in the heart<br />
+            of Cape Town's V&A Waterfront. We source local produce from our
+            famous Waterfront market, <br />
+            guaranteeing fresh ingredients at the highest quality. With magical
+            views and friendly service, why not come join our<br />
+            table and share in the vibe that is <strong>tapas!</strong>
+          </p>
+        </div>
+
+        <div class="img-col">
+          <img
+            src="images/giphy1.gif"
+            alt="images of food infront of the ocean"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Food categories  -->
+
+    <section id="categories">
+      <div class="container categories">
+        <h2>Food Categories</h2>
+        <p>Search our Food Categories for your online order:</p>
+        <div class="search-bar">
+          <label>Food Search</label>
+          <input
+            class="search-txt"
+            type="text"
+            name="#"
+            placeholder="Type to search"
+          />
+          <a class="search-btn" href="#"></a>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/starter.jpg" alt="Cheese balls on a platter" />
+            </div>
+
+            <div class="card-content">
+              <h3>Starters</h3>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="images/meat..webp"
+                alt="Selection of meats, cheese and fruit on a platter"
+              />
+            </div>
+            <div class="card-content">
+              <h3>Platters</h3>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="images/sweet.jpg"
+                alt="Desserts displayed on a platter"
+              />
+            </div>
+            <div class="card-content">
+              <h3>Desserts</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Food menu -->
+
+    <section class="food-menu" id="food-menu">
+      <div class="container">
+        <h2 class="text-center">Food Menu</h2>
+        <div class="food-boxes">
+          <div class="food-menu-box">
+            <div class="food-menu-img">
+              <img
+                src="images/spanish..jpg"
+                alt="Cold meats,fruit and Cheese platter"
+                class="img-responsive img-curve"
+              />
+            </div>
+            <div class="food-menu-desc">
+              <h4>Spanshish Tapas Platter</h4>
+              <p class="food-price">R560.00</p>
+              <p class="food-detail">
+                Olives, Nuts, Manchego Cheese, Fruit, Chirizo, Venison, and a
+                selection of breads
+              </p>
+              <br />
+              <a href="#" class="btn btn-primary">ORDER NOW</a>
+            </div>
+          </div>
+          <div class="food-menu-box">
+            <div class="food-menu-img">
+              <img
+                src="images/seafood..webp"
+                alt="Paella dish"
+                class="img-responsive img-curve"
+              />
+            </div>
+            <div class="food-menu-desc">
+              <h4>Traditional Seafood Paella</h4>
+              <p class="food-price">R420.00</p>
+              <p class="food-detail">
+                Muscles, Prawns, Clams, Calamari and Saffron Rice with
+                vegetables
+              </p>
+              <br />
+              <a href="#" class="btn btn-primary">ORDER NOW</a>
+            </div>
+          </div>
+          <div class="food-menu-box">
+            <div class="food-menu-img">
+              <img
+                src="images/veg.jpg"
+                alt="Variety of vegitarian food"
+                class="img-responsive img-curve"
+              />
+            </div>
+            <div class="food-menu-desc">
+              <h4>Vegetarian Mezze Platter</h4>
+              <p class="food-price">R370.00</p>
+              <p class="food-detail">
+                Artichokes, Feta, Sun dried tomatoes, Olives, Dolmades with an
+                assortment of dips
+              </p>
+              <br />
+              <a href="#" class="btn btn-primary">ORDER NOW</a>
+            </div>
+          </div>
+          <div class="food-menu-box">
+            <div class="food-menu-img">
+              <img
+                src="images/cheese..jpg"
+                alt="Cheese platter with Olives and breads"
+                class="img-responsive img-curve"
+              />
+            </div>
+            <div class="food-menu-desc">
+              <h4>Cheese Selection Platter</h4>
+              <p class="food-price">R195.00</p>
+              <p class="food-detail">
+                3 cheese platter with Sourdough bread and a Compote
+              </p>
+              <br />
+              <a href="#" class="btn btn-primary">ORDER NOW</a>
+            </div>
+          </div>
+          <div class="food-menu-box">
+            <div class="food-menu-img">
+              <img
+                src="images/mezze..jpg"
+                alt="Mediterranean Mezze Platter"
+                class="img-responsive img-curve"
+              />
+            </div>
+            <div class="food-menu-desc">
+              <h4>Mediterranean Mezze Platter</h4>
+              <p class="food-price">R455.00</p>
+              <p class="food-detail">
+                Hummus, Tzatziki, Prosciutto and Salami with Feta cheese and
+                fresh figs
+              </p>
+              <br />
+              <a href="#" class="btn btn-primary">ORDER NOW</a>
+            </div>
+          </div>
+          <div class="food-menu-box">
+            <div class="food-menu-img">
+              <img
+                src="images/dessert..jpg"
+                alt="Selection of Chocolates, biscuits and sweets"
+                class="img-responsive img-curve"
+              />
+            </div>
+            <div class="food-menu-desc">
+              <h4>Dessert Charcuterie Platter</h4>
+              <p class="food-price">R220.00</p>
+              <p class="food-detail">
+                Chocolate cherries with Truffles, Caramels and cookies
+              </p>
+              <br />
+              <a href="#" class="btn btn-primary">ORDER NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+      <div>
+        <h2>Contact Us</h2>
+        <div class="grid-two-col">
+          <div class="contact-intro">
+            <div class="contact-us">
+              <p><strong>Contact us:</strong></p>
+              <p>+27 72 900 9813</p>
+              <p>+27 12 495 5555</p>
+            </div>
+
+            <div class="opening-times">
+              <p><strong>Opening Hours:</strong></p>
+              <p>Monday - Friday: 11h30-22h00</p>
+              <p>Saturday: 09h00-23h00</p>
+              <p>Sunday: 09h00-20h00</p>
+              <p>
+                Tasha's resturant is situated in the V&A Waterfront, Cape Town
+              </p>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form class="form-align input">
+              <table>
+                <tr>
+                  <td><label for="first">First Name</label></td>
+                  <td>
+                    <input
+                      type="first-name"
+                      name="first"
+                      id="first"
+                      autofocus
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td><label class="last">Last Name</label></td>
+                  <td><input type="last-name" name="last" id="last" /></td>
+                </tr>
+                <tr>
+                  <td><label for="login-email">Email Address</label></td>
+                  <td>
+                    <input type="email" name="login-email" id="login-email" />
+                  </td>
+                </tr>
+                <tr>
+                  <td><label class="number">Contact Number</label></td>
+                  <td>
+                    <input type="number" name="phone" id="number" />
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="enquiry">General Enquiry</label></td>
+                  <td>
+                    <select id="enquiry">
+                      <option value="general-enquiry">General Enquiry</option>
+                      <option value="online-order">Online Order</option>
+                      <option value="delivery">Deliveries</option>
+                      <option value="jobs">Job Opportunities</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>
+                    <textarea
+                      name="your-enquiry"
+                      id="enquiry_1"
+                      cols="20"
+                      rows="5"
+                      placeholder="Your Enquiries"
+                    ></textarea>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31502.63295049016!2d18.41708630517403!3d-33.90751317025381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc6750cf9544a5%3A0x1dc3860578bb4780!2sV%26A%20Waterfront!5e0!3m2!1sen!2sza!4v1684828207858!5m2!1sen!2sza"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <div></div>
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="social-icons">
+        <a href="#"><i class="bx bxl-facebook"></i> </a>
+        <a href="#"> <i class="bx bxl-instagram"></i> </a>
+        <a href="#">
+          <i class="bx bxl-twitter"></i>
+        </a>
+      </div>
+      <p>All rights reserved. Designed by <a href="#">Jade Harris</a></p>
+    </footer>
+  </body>
+</html>

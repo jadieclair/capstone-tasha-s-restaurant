@@ -1,0 +1,406 @@
+/* css reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* general styling */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair", serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+/* css for nav section */
+
+section {
+  text-align: center;
+  padding: 2rem 5rem;
+}
+
+.logo img {
+  width: 10rem;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  background-color: rgb(233, 61, 155);
+  display: flex;
+  align-items: center;
+  padding: 1rem 4rem;
+  justify-content: space-between;
+}
+
+.nav h1 {
+  padding: 1rem;
+}
+
+.nav-list {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.nav-list li {
+  list-style: none;
+}
+
+.nav-list a {
+  color: #000;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.banner iframe {
+  border: none;
+  max-width: 40%;
+  float: left;
+}
+
+.banner img {
+  width: 50rem;
+}
+
+.container-info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.img-col {
+  max-width: 100%;
+}
+
+#about {
+  background-color: rgb(224, 216, 216);
+}
+
+h2 {
+  text-align: center;
+}
+
+/* food menu section */
+
+.menu {
+  line-height: 60px;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 20rem;
+  padding-left: 20rem;
+  font-weight: bold;
+}
+
+.li {
+  list-style-type: none;
+  display: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+a {
+  color: rgb(155, 26, 155);
+  text-decoration: none;
+  transition: color 250ms linear;
+}
+
+a:hover {
+  color: rgb(247, 10, 49);
+}
+
+.btn {
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: rgb(155, 26, 155);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: rgb(247, 10, 49);
+  color: white;
+}
+
+.h2 {
+  font-size: 2rem;
+  color: red;
+  margin-bottom: 2%;
+}
+
+.h3 {
+  font-size: 1.5rem;
+}
+
+.float-container {
+  position: relative;
+}
+
+.float-text {
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+}
+
+/* css - Food Categories */
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.search-bar {
+  background: rgb(155, 26, 155);
+  border-radius: 1rem;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.search-bar input {
+  border-radius: 1rem;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 1rem;
+}
+
+/* css for categories */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  border-radius: 1rem;
+  background: red;
+  overflow: hidden;
+  color: white;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-image img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+/* css for food menu */
+
+.food-menu {
+  background-color: rgb(224, 216, 216);
+  padding: 4% 0;
+}
+
+.food-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.food-menu-box {
+  overflow: hidden;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.food-menu-img img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.food-menu-desc {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.food-price {
+  font-size: 1.2rem;
+  /* margin: 2% 0; */
+}
+
+.food-detail {
+  font-size: 1rem;
+  color: red;
+}
+
+.grid-two-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 2rem;
+}
+
+.contact-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.opening-times {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* css for footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.social-icons i {
+  font-size: 3rem;
+}
+
+/* css for smaller screens */
+
+@media only screen and (max-width: 768px) {
+  .menu ul {
+    text-align: center;
+  }
+
+  .food-search input[type="search"] {
+    width: 90%;
+    margin-bottom: 3%;
+    padding: 2%;
+  }
+
+  .btn {
+    width: 90%;
+    padding: 2%;
+  }
+  .columns {
+    width: 100%;
+  }
+  .column {
+    width: 100%;
+    float: left;
+  }
+  @media (min-width: 48em) {
+    .column {
+      width: 50%;
+      float: left;
+    }
+    .columns {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+}
